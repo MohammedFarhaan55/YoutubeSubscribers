@@ -1,0 +1,49 @@
+
+body {
+    
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%
+    /* This makes sure the body takes at least the height of the viewport */
+}
+
+.navbar, .footerlink {
+    background-image: radial-gradient(circle, #c226c2 0%, #ece99a 100%);
+}
+
+div {
+    margin: 2%;
+}
+
+.navbar-brand{
+    height: 40px;
+}
+.capstone{
+    
+    margin-top: 0;
+    margin-left: 0rem;
+    color: rgb(77, 75, 75);
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+em {
+    background-color: rgb(132, 127, 127);
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+em:hover {
+    background-image: radial-gradient(circle, #c226c2 0%, #ece99a 100%);
+    color: black;
+}
+
